@@ -30,3 +30,9 @@ OOP
   - `__str__` and `def __repr__(self):` (representation) are used for printing an object.
     - Use `return`
   - `def __len__(self):` returns output when `len(object)`.
+
+Decorator
+- On/off switch to quickly add functionality to a function
+- Allow you to tack on extra functionality to an already existing function
+- Use `@` operator and are then place on top of the original function
+- Returning a function
