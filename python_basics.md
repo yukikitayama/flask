@@ -36,3 +36,12 @@ Decorator
 - Allow you to tack on extra functionality to an already existing function
 - Use `@` operator and are then place on top of the original function
 - Returning a function
+
+Packages
+- Adding `__init__.py` to a directory tells Python that it is a package.
+
+`__name__` and `"__main__"`
+- `__name__` allows you to see whether something is being imported or run directly
+- Sometimes when you are importing from a module, you would like to know 
+  - whether a modules function is being used as an import, 
+  - or if you are using the original .py file of that module.
