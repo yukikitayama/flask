@@ -28,4 +28,15 @@ Template
 - Connect a view function to render HTML template (HTML files we've already created for a page)
 - Flask automatically look for HTML templates in the `template` directory
 - `from flask import render_template`, `render_tamplete("name.html")` automatically search `name.html` that should exist in `templates` folder at the same level directory
-- 
+- Using the **render_template** function, we can directly render an HTML file with our Flask web app.
+- **Jinja** templating will let us directly insert variables from our Python code to the HTML file.
+  - `{{some_variable}}`
+- Set parameters in `render_template` function and then use the `{{}}` syntax to insert them in the tamplate.
+- Use `{% %}` to control flow syntax such as for loops and if statements.
+```
+<ul>
+  {% for item in mylist %}
+  <li>{{item}}</li>
+  {% endfor %}
+</ul>
+```
