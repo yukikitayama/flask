@@ -40,3 +40,17 @@ Template
   {% endfor %}
 </ul>
 ```
+
+Template inheritance
+- Usually pages across a web application share a lot of features (e.g. navigation bar, footer)
+- Set up a base.html template file with the re-usable aspects of the site
+- Use `{% extend "base.html" %}` and `{% block %}` statements to extend the re-usable aspects to other pages.
+
+Filter
+- `{{ variable | filter }}`
+- `{{ name | capitalize }}`
+
+url_for
+- Connects other template pages or files within template
+- `{{ url_for("app-route-function-name") }}` navigates to other pages
+- `{{ url_for('static', filename='image.png')` can show image file in the static folder.
