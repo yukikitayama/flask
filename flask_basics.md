@@ -54,3 +54,9 @@ url_for
 - Connects other template pages or files within template
 - `{{ url_for("app-route-function-name") }}` navigates to other pages
 - `{{ url_for('static', filename='image.png')` can show image file in the static folder.
+
+Flask form
+- Use `flask_wtf` and `wtforms` to create forms
+- Configure a secret key for security
+- Create a WTForm class
+- Set up a view function
