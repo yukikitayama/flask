@@ -60,3 +60,7 @@ Flask form
 - Configure a secret key for security
 - Create a WTForm class
 - Set up a view function
+- Every possible HTML form field has a corresponding wtforms class
+  - wtforms has validators
+- Use Flask's `session` object to grab the information provided in the form abd pass it to another template
+  - Temporarily saved in a server
