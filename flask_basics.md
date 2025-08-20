@@ -64,3 +64,6 @@ Flask form
   - wtforms has validators
 - Use Flask's `session` object to grab the information provided in the form abd pass it to another template
   - Temporarily saved in a server
+
+Flashing messages
+- Flash a message to a user that we don't need to save or fix permanently to the template page
