@@ -67,3 +67,9 @@ Flask form
 
 Flashing messages
 - Flash a message to a user that we don't need to save or fix permanently to the template page
+
+Database
+- To connect Python, Flask, and SQL, we need an **ORM (Object Relational Mapper)**.
+- ORM allows us to use Python instead of SQL syntax to create, edit, update, delete from database
+- **SQL Alchemy** is the most common ORM for Python.
+- `Flask-SQLAlchemy` is an extension for an easy connection between Flask and SQLAlchemy
