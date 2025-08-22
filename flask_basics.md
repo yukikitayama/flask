@@ -73,3 +73,7 @@ Database
 - ORM allows us to use Python instead of SQL syntax to create, edit, update, delete from database
 - **SQL Alchemy** is the most common ORM for Python.
 - `Flask-SQLAlchemy` is an extension for an easy connection between Flask and SQLAlchemy
+- Set up SQLite Database in a Flask App
+- Create a model in Flask app
+  - Model is just a table in a SQL database.
+- Perform CRUD on our model
