@@ -77,3 +77,5 @@ Database
 - Create a model in Flask app
   - Model is just a table in a SQL database.
 - Perform CRUD on our model
+- `app.app_context().push()`
+  - https://flask-sqlalchemy.palletsprojects.com/en/stable/contexts/
